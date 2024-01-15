@@ -1,5 +1,7 @@
 package sortalgorithm;
 
+import java.util.Scanner;
+
 public class pibonacci {
 	static long[] memo;
 	public static long fibonacci(int n) {
@@ -20,7 +22,28 @@ public class pibonacci {
 		
 	}
 	
-	
-	
-
 }
+
+/*public class pibonacci {
+
+public static void main(String[] args) {
+	int num = 10;
+	
+	System.out.println(fibonacci(num));
+	
+}
+
+public  static int fibonacci(int num) {
+	int result = 0;
+	if(num == 1) {
+		result = 1;
+	}
+	else if(num ==2) {
+		result = 1;
+	}
+	else if(num >= 3) {
+		result = fibonacci(num-2) + fibonacci(num-1);
+	}
+	return result;
+}
+*/
